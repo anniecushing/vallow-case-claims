@@ -1,0 +1,34 @@
+#mynetwork {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    position: relative;
+    float: left;
+}
+
+
+
+
+
+
+/* position absolute is important and the container has to be relative or absolute as well. */
+div.popup {
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding: 15px;
+    display:none;
+    background-color:#d9e6f3;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px dashed #808074;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    min-width: 30vw;
+}
+
+/* hide the original tooltip */
+.vis-network-tooltip {
+  display:none;
+}
